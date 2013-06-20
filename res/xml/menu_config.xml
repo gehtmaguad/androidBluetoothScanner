@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<PreferenceCategory
+		android:title="@string/mac_address">
+
+		<EditTextPreference
+			android:key="edittext_macadress"
+			android:title="@string/title_et_macaddress"
+			android:summary="@string/summary_et_macaddress"
+			android:dialogTitle="@string/dialog_title_et_macaddress" />
+
+		<EditTextPreference
+			android:key="edittext_checkinterval"
+			android:title="@string/title_et_checkinterval"
+			android:summary="@string/summary_et_checkinterval"
+			android:dialogTitle="@string/dialog_title_et_checkinterval"
+			android:inputType="number"/>
+		
+		<EditTextPreference
+			android:key="edittext_notificationinterval"
+			android:title="@string/title_et_notificationinterval"
+			android:summary="@string/summary_et_notificationinterval"
+			android:dialogTitle="@string/dialog_title_et_notificationinterval"
+			android:inputType="number"/>
+	</PreferenceCategory>
+    
+</PreferenceScreen>

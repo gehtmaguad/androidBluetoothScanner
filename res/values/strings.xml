@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General -->
+    <string name="app_name">Thunder Shark</string>
+    
+    <!-- MainActivity -->
+	<string name="welcome_text">Just a Simple Bluetooth Device Scanning App</string>
+    <string name="button_start">Start Scanning</string>
+	<string name="button_stop">Stop Scanning</string>
+    
+	<!-- Service -->
+    <string name="notification_detected">Spotted an Object!</string>
+    <string name="notification_scanning">Just floating trough the Scope&#8230;</string>
+    <string name="notification_stop_scanning">Falling asleep, GoodBye</string>
+    
+    <!-- Option Menu -->
+	<string name="menu_config">Config</string>
+	<string name="menu_alarm">Alarm</string>
+
+	<!-- Config Menu -->	
+	<string name="mac_address">MAC-Address</string>
+	
+	<string name="title_et_macaddress">Bluetooth Device</string>
+	<string name="summary_et_macaddress">Device-Name or MAC-Address</string>
+	<string name="dialog_title_et_macaddress">Enter Device-Name or MAC-Address</string>
+	
+	<string name="title_et_checkinterval">Scanning Interval</string>
+	<string name="summary_et_checkinterval">Set Scanning Interval</string>
+	<string name="dialog_title_et_checkinterval">Set Interval in Seconds</string>
+
+	<string name="title_et_notificationinterval">Notification Interval</string>
+	<string name="summary_et_notificationinterval">Set Notification Interval</string>
+	<string name="dialog_title_et_notificationinterval">Set Interval in Seconds</string>		
+	
+	<!-- Alarm Menu -->	
+	<string name="sms_alarm">SMS Alarm</string>
+	
+	<string name="title_cb_sms">SMS Alarm</string>
+	<string name="summary_cb_sms">Activate SMS Alarm</string>
+	
+	<string name="title_et_sms_phonenumber">Telephone Number</string>
+	<string name="summary_et_sms_phonenumber">Telephone Number</string>
+	<string name="dialog_title_et_sms_phonenumber">Enter Telephone Number</string>
+	
+	<string name="title_et_sms_message">Message Text</string>
+	<string name="summary_et_sms_message">Message Text</string>
+	<string name="dialog_title_et_sms_message">Enter Message Text</string>
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<PreferenceCategory
+		android:title="@string/sms_alarm">
+		<CheckBoxPreference
+		    android:key="checkbox_sms"
+			android:title="@string/title_cb_sms"
+			android:summary="@string/summary_cb_sms" />
+		
+		<EditTextPreference
+			android:key="edittext_sms_phonenumber"
+			android:title="@string/title_et_sms_phonenumber"
+			android:summary="@string/summary_et_sms_phonenumber"
+			android:dialogTitle="@string/dialog_title_et_sms_phonenumber" />
+		
+		<EditTextPreference
+			android:key="edittext_sms_message"
+			android:title="@string/title_et_sms_message"
+			android:summary="@string/summary_et_sms_message"
+			android:dialogTitle="@string/dialog_title_et_sms_message" />
+	</PreferenceCategory>
+    
+</PreferenceScreen>
